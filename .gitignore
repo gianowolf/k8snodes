@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Kubernetes / credentials
+# =========================
+# Nunca versionar credenciales
+.kube/
+kubeconfig*
+*.kubeconfig
+
+# =========================
+# Outputs / reports
+# =========================
+# Reportes generados por el script
+report*.md
+output*.md
+reports/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+tmp/
